@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+body{
+    background-color: #ede8df;
+}
+
+header{
+    background-image: url(img/banner.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+.inicial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ede8df;
+}
+h1{
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 150px;
+    color: #ede8df;
+    font-family: Josefin Sans;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-family: josefin sans;
+}
+
+section p{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 40px;
+    font-family: josefin sans;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;
+    font-family: josefin sans;
+    text-align: center;
+}
+
+h5{
+    font-size: 40px;
+    font-family: josefin sans;
+    text-align: center;
+}
+
+h6{
+    font-size: 40px;
+    font-family: josefin sans;
+    text-align: center;
+}
+
+.pt3{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pt3 p{
+    text-align: center;
+}
+
+.hobbies{
+    list-style: none;
+    text-align: center;
+}
+
+.hobbies p{
+    text-align: center;
+}
+
+.trampo{
+    display: flex;
+    justify-content: space-around;
+
+}
+.trampo p{
+    text-align: center;
+}
+
+footer{
+    background-color: #474a51;
+    color: #ede8df;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+
+.contato{
+    align-items: center;
+    margin-top: 30px;
+}
+.contato li {
+    font-size: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+.ultima{
+    border-radius: 15px;
+}
