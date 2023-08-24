@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="'yes' name='apple-mobile-web-app-capable">
+    <meta content="'yes' name='mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="black">
+    <title>Biografia</title>
+    <link rel="apple-touch-icon" href="assets/logos/icon/192x192-apple.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+
+        <div class="inicial">
+            <div>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Pessoal</a></li>
+                <li><a href="">Desçrição</a></li>
+                <li><a href="">Hobbies</a></li>
+                <li><a href="">Trabalhos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+</div>
+<h1>Larissa Manoela</h1>
+    </header>
+
+    <section>
+        <div>
+        <h2>Informações pessoais</h2>
+        <p>Larissa Manoela tem 22 anos de idade, nasceu na cidade Guaraouava, Parana.</p>
+        </div>
+    </section>
+
+    <h3>Descrição</h3>
+    <div class="pt3">
+    <p>Larissa Manoela Taques Elias dos Santos é uma atriz, cantora e empresária <br>brasileira.
+    Ficou conhecida por interpretar Maria Joaquina em Carrossel, as gêmeas Isabela e <br>
+    Manuela em Cúmplices de um Resgate e Mirela em As Aventuras de Poliana no SBT. </p>
+    </div>
+
+    <h4>Hobbies</h4>
+    <ul class="hobbies">
+        <li>Ioga;</li>
+        <li>Colorir;</li>
+        <li>Ler;</li>
+        <li>Treinar boxe;</li>
+        <li>Brincar com os cachorros.</li>
+    </ul>
+
+    <h5>Trabalhos</h5>
+    <div class="trampo">
+    <p>Além dos citados acima, Larissa Manoela atuou em varios filmes como <strong>Fala sério mãe</strong> <br>
+        que está disponivel no <em>sitebacana.com</em>, e muitos outros.</p>
+</div>
+
+    <footer>
+        <h6>Informações de contato</h6>
+        <div class="rodape">
+                <div>
+                <img src="img/lari.png" class="ultima">
+            </div>
+            <div>
+                <ul class="contato">
+                    <li>Instagram: @larissamanoela</li>
+                    <li>Facebook: Larissa Manoela</li>
+                    <li>Email: larissamanoela@gmail.com</li>
+                    <li>Acessoria: +55 11 99782-4513</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+    
+        document.addEventListener("DOMContentLoaded", function (event) {
+                if ('serviceWorker' in navigator) {
+                    console.log('has serviceworker');
+                    window.addEventListener('load', () => {
+                        navigator.serviceWorker.register('serviceWorker.js')
+                            .then((registration) => {
+                                console.log('Service worker registered.', registration);
+                            });
+                    });
+                }
+                else {
+                    console.log("Your browser not supports serviceWorkers");
+                }
+            });
+        
+        </script>
+</body>
+</html>
